@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    margin-bottom: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#f07dee, #ffffff, #acfdbc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    width: 360px;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 500px;
+    padding: 15px;
+    background: rgba(226, 255, 122, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(49, 44, 44, 0.5);
+}
+
+.container input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    text-align: right;
+    height: 75px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.container input[type="button"]{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    height: 65px;
+    color: rgb(0, 0, 0);
+    width: calc(100% /5 - 5px);
+    border-radius: 12px;
+    margin-top: 15px;
+}
+.container input[type="button"]:hover{
+    background: rgba(130, 211, 255, 0.2);
+}
+button {
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    height: 65px;
+    color: white;
+    width: calc(100% /5 - 5px);
+    background: transparent;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+button input :hover{
+    background: rgba(253, 255, 165, 0.2);
+}
